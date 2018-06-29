@@ -167,7 +167,6 @@ class Hexsweeper {
                 filled = true;
                 fillCells(point.x, point.y);
                 uncover(point.x, point.y);
-                win();
             } else {
                 if (leftClick) {
                     if (!cells[point.y][point.x].hasFlag()) {
